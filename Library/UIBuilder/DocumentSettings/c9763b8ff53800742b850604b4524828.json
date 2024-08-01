@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "c9763b8ff53800742b850604b4524828",
+    "UxmlPath": "Assets/UI/ClickerMain.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 936,
+    "CanvasHeight": 1581,
+    "MatchGameView": false,
+    "ZoomScale": 0.25,
+    "PanOffset": {
+        "x": 363.05523681640627,
+        "y": 102.99444580078125
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": true,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.26535239815711977,
+        "g": 0.4204104542732239,
+        "b": 0.6320754289627075,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}
