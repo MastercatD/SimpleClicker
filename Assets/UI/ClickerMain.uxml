@@ -1,12 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/ClickerStyles.uss?fileID=7433441132597879392&amp;guid=1e35e57b88beeab4e8901b9cb77fb5b0&amp;type=3#ClickerStyles" />
     <ui:VisualElement name="InfoContainer" style="height: 25%; width: auto; flex-basis: initial; left: 0; bottom: auto; top: 5%; justify-content: flex-start; align-items: flex-start;">
-        <ui:Label display-tooltip-when-elided="true" name="Money" class="text" />
-        <ui:Label display-tooltip-when-elided="true" name="Level" class="text" />
+        <ui:Label display-tooltip-when-elided="true" name="Money" text=" 0" class="text" style="width: 90%; -unity-text-align: middle-center;" />
+        <ui:Label display-tooltip-when-elided="true" name="Level" text=" lvl: 1" class="text" />
     </ui:VisualElement>
     <ui:VisualElement name="ButtonsContainer" style="height: 70%; position: relative; justify-content: flex-start; flex-direction: column-reverse; align-items: center; bottom: auto; right: auto; left: auto; top: auto; width: auto; margin-right: 0; padding-right: 5px;">
-        <ui:Button text="Upgrade" display-tooltip-when-elided="true" name="Upgrade" class="button" />
-        <ui:Button text="Button" display-tooltip-when-elided="true" name="AddMoney" class="button coinButton" />
+        <ui:Button text="Upgrade\n10" display-tooltip-when-elided="true" name="Upgrade" class="button" />
+        <ui:Button text="1" display-tooltip-when-elided="true" name="AddMoney" class="button coinButton" />
     </ui:VisualElement>
     <ui:VisualElement name="MoneyArea" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;" />
 </ui:UXML>

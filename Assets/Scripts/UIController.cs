@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 
@@ -34,7 +32,7 @@ public class UIController : MonoBehaviour
 		{
         _money.ThrowMoney();
         _player.AddMoney();
-        _moneyLabel.text = _player.money.ToString();
+        _moneyLabel.text = ' ' + _player.money.ToString();
         if (!_upgradeButton.enabledSelf && _player.upgradeCost <= _player.money)
 				{
             _upgradeButton.SetEnabled(true);
@@ -44,10 +42,10 @@ public class UIController : MonoBehaviour
     private void OnUpgradeButtonClicked()   // Нажатие на клавишу прокачки
     {
         _player.LevelUp();
-        _levelLabel.text = "lvl: " + _player.level.ToString();
-        _moneyLabel.text = _player.money.ToString();
+        _levelLabel.text = " lvl: " + _player.level.ToString();
+        _moneyLabel.text = ' ' +_player.money.ToString();
         _moneyButton.text = _player.incone.ToString();
-        _upgradeButton.text = "Upgrade " + _player.upgradeCost.ToString();
+        _upgradeButton.text = "Upgrade\n" + _player.upgradeCost.ToString();
         if (_player.upgradeCost > _player.money)
 				{
             _upgradeButton.SetEnabled(false);

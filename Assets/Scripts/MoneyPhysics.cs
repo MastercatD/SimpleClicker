@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 public class MoneyPhysics : MonoBehaviour
@@ -10,7 +8,7 @@ public class MoneyPhysics : MonoBehaviour
     private VisualElement _ui;                                      //  Интерфейс
     [SerializeField] private VisualTreeAsset _moneyTemplate;        //  Визуальный элемент, эмитирующий купюру
     private List<Money> _moneyList = new List<Money>();             //  Список активных купюр
-    private float _startMoneySpeed;                //  Начальная скорость купюр
+    private float _startMoneySpeed;                                 //  Начальная скорость купюр
     [SerializeField] private float _gravity;                        //  Ускорение купюр
     private class Money //Класс купюры                                                        
 		{
@@ -33,7 +31,7 @@ public class MoneyPhysics : MonoBehaviour
 				{
             this._view.transform.position += new Vector3(_speedX, _speedY, 0) * Time.deltaTime ;
             this._view.transform.rotation = Quaternion.Euler(new Vector3 (0, 0, _angularVelocity) * Time.deltaTime + this._view.transform.rotation.eulerAngles);
-            _speedY += gravity;
+            _speedY += gravity * Time.deltaTime;
             return true;
 				}
     };
@@ -65,7 +63,7 @@ public class MoneyPhysics : MonoBehaviour
         pos = RuntimePanelUtils.ScreenToPanel(_ui.panel, pos);
         moneyView.style.top = pos.y;
         moneyView.style.left = pos.x;
-        float speed = Random.Range(-100.0f, 100.0f);
+        float speed = Random.Range(-500.0f, 500.0f);
         float angularVelocity = Random.Range(-180.0f, 180.0f);
         _ui.Q("MoneyArea").Add(moneyView);
         _moneyList.Add(new Money(moneyView, speed, -_startMoneySpeed, angularVelocity));

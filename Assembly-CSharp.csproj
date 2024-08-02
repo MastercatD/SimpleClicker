@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\MoneyPhysics.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
   </ItemGroup>
   <ItemGroup>

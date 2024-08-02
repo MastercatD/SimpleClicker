@@ -28,7 +28,8 @@ public class PlayerData : MonoBehaviour
 
     void Start()
     {
-        _money = 100000;
+        //  Начальные данные 
+        _money = 0;
         _level = 1;
         _upgradeCost = 10;
         _income = 1;
@@ -42,8 +43,8 @@ public class PlayerData : MonoBehaviour
 		{
         _level++;
         _money -= _upgradeCost;
-        _upgradeCost = _upgradeCost * 2;
-        _income += (_level / 10) * 10 + 1;
+        _upgradeCost = 10 * _level * level;
+        _income += _level;
     }
 
 }
