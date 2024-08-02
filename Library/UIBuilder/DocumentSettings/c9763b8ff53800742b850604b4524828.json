@@ -3,13 +3,13 @@
     "UxmlPath": "Assets/UI/ClickerMain.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 936,
-    "CanvasHeight": 1581,
+    "CanvasWidth": 736,
+    "CanvasHeight": 1497,
     "MatchGameView": false,
-    "ZoomScale": 0.25,
+    "ZoomScale": 0.75,
     "PanOffset": {
-        "x": 363.05523681640627,
-        "y": 102.99444580078125
+        "x": 97.31549072265625,
+        "y": -125.70266723632813
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,

@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "86f227b13ed309549ad254a2bcea8dfa",
+    "UxmlPath": "Assets/UI/Money.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 64,
+    "CanvasHeight": 25,
+    "MatchGameView": false,
+    "ZoomScale": 0.75,
+    "PanOffset": {
+        "x": 12.885528564453125,
+        "y": 186.28530883789063
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 255.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

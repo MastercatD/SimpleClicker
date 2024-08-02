@@ -286,6 +286,8 @@ GameObject:
   - component: {fileID: 2124243982}
   - component: {fileID: 2124243981}
   - component: {fileID: 2124243983}
+  - component: {fileID: 2124243984}
+  - component: {fileID: 2124243985}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -334,5 +336,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cec1e6a14a8b4f43a9250dda1537024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2124243984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124243980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b932daf1c2632442a441caa99e03084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moneyTemplate: {fileID: 9197481963319205126, guid: 86f227b13ed309549ad254a2bcea8dfa, type: 3}
+  _gravity: 4
+--- !u!114 &2124243985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124243980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a119535b1b423154e8a9937edb35c4f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
